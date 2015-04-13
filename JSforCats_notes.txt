@@ -1,0 +1,17 @@
+Strings
+- Defined by "" and '', just like Python
+- Need to assign them a variable, just like Python
+
+Variables
+- Uh, yeah, pretty much just like Python
+- Every time you refresh the page your variables get reset
+- You can use up and down arrows to autocomplete variables that exist/are defined in your current session
+* Do you have to type "var" before a variable name to define it as a variable?
+
+Functions & Libraries
+- MDN has good documentation on Javascripts built-in libraries: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
+- There are also a lot of third-party libraries (like underscore.js) that you can download and use for special Javascripty things
+- You can also make your own functions - yay! - to do so the syntax is:
+function functionName(argumentOne) {
+  return string + "!!!"
+}
