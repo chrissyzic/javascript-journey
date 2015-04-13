@@ -21,3 +21,13 @@ function functionName(argumentOne) {
 - "return" is more generic than "console.log" so it's better to use the former in functions
 
 Loops
+- Here's some basic syntax for how to loop, but I think it might be specific ot Underscore.js
+function logANumber(someNumber) {
+  console.log(someNumber)
+}
+_.times(10, logANumber)
+
+Arrays
+- I am a broken record, but these are just like lists in Python
+- Here's how you create one:
+var MyFirstArray = ["thing one", "thing two", "thing three"]
