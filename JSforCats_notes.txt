@@ -11,7 +11,13 @@ Variables
 Functions & Libraries
 - MDN has good documentation on Javascripts built-in libraries: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - There are also a lot of third-party libraries (like underscore.js) that you can download and use for special Javascripty things
+- Running a function on a variable doesn't change the variable itself UNLESS you do varName = function(varName)
 - You can also make your own functions - yay! - to do so the syntax is:
 function functionName(argumentOne) {
   return string + "!!!"
 }
+- Make sure your function returns something if you want it to print something out, otherwise it will do what you tell it but not actually print it out
+- "Methods are just a name for a function when it belongs to something" e.g. toUppercase is just like .upper() in Python
+- "return" is more generic than "console.log" so it's better to use the former in functions
+
+Loops
