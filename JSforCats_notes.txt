@@ -31,3 +31,12 @@ Arrays
 - I am a broken record, but these are just like lists in Python
 - Here's how you create one:
 var MyFirstArray = ["thing one", "thing two", "thing three"]
+- Add something to a list using .push() (myList.push("new list item")
+- When you add an item to a list, the console will print out the length of the list - so helpful!
+
+Objects
+- UGH THESE ARE BASICALLY DICTIONARIES MY BRAIN WILL NEVER KEEP THIS ALL STRAIGHT
+- Syntax is: var myObject = {name: "Chrissy", address: "next to big bear", age: "27 going on 62"}
+- You call them this way: return myObject.name OR console.log(myObject.age)
+- Objects don't remember the order of things, so if order matters use arrays
+- You can make arrays filled with objects or objects filled with arrays or objects filled with objects, etc. etc. etc.
