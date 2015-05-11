@@ -1,6 +1,9 @@
 Strings
 - Defined by "" and '', just like Python
 - Need to assign them a variable, just like Python
+- Javascript treats capital letters different from lower case letters
+- Slicing strings is kind of weird. string.slice(1) will give you position one to the end, string.slice(1,2) will give you just the character in position 1
+- Also, Javascript starts counting at zero because of course.
 
 Variables
 - Uh, yeah, pretty much just like Python
@@ -38,5 +41,10 @@ Objects
 - UGH THESE ARE BASICALLY DICTIONARIES MY BRAIN WILL NEVER KEEP THIS ALL STRAIGHT
 - Syntax is: var myObject = {name: "Chrissy", address: "next to big bear", age: "27 going on 62"}
 - You call them this way: return myObject.name OR console.log(myObject.age)
+- You can also call them myObject["name"]
+* Is there are better or worse way to call items from an object?
 - Objects don't remember the order of things, so if order matters use arrays
 - You can make arrays filled with objects or objects filled with arrays or objects filled with objects, etc. etc. etc.
+
+Async
+- Basically a(b) is better than a() b()
